@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leona's Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body {
+            background-color: #D6C2EE;
+            color: #3A1C71;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #E8DAEF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+            border: 3px solid #A95EC7;
+        }
+        h1 {
+            font-size: 20px;
+            text-shadow: 2px 2px #BA68C8;
+        }
+        .socials a {
+            display: block;
+            color: #5E35B1;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        .socials a:hover {
+            color: #D81B60;
+        }
+        .pixel-button {
+            background: #BA68C8;
+            color: white;
+            padding: 10px 15px;
+            border: 3px solid #5E35B1;
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 12px;
+            box-shadow: 3px 3px 0px #5E35B1;
+        }
+        .pixel-button:hover {
+            background: #D81B60;
+            box-shadow: 3px 3px 0px #880E4F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Leona's Space ✨</h1>
+        <p>Digital creator | Gamer</p>
+        <div class="socials">
+            <a href="#">📌 Twitter</a>
+            <a href="#">🎮 Twitch</a>
+            <a href="#">📷 Instagram</a>
+            <a href="#">🔗 Linktree</a>
+        </div>
+        <a href="mailto:leona@example.com" class="pixel-button">📩 Contact Me</a>
+    </div>
+</body>
+</html>
